@@ -34,7 +34,7 @@ exports.create = function (req, res) {
 		url: url
 	};
 
-	res.redirect('/photos');
+	res.redirect('photos');
 };
 
 // Borra una foto (photoId) del registro de imagenes 
